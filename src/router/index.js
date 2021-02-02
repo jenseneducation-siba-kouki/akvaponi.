@@ -4,6 +4,7 @@ import About from '../views/About.vue'
 import Events from '../views/Events.vue'
 import Literature from '../views/Literature.vue'
 import News from '../views/News.vue'
+import Project from '../views/Project.vue'
 
 
 const routes = [
@@ -31,6 +32,11 @@ const routes = [
     path: '/News',
     name: 'News',
     component: News
+  },
+  {
+    path: '/Project',
+    name: 'Project',
+    component: Project
   },
 ]
 const router = createRouter({

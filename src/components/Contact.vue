@@ -13,10 +13,11 @@
       <section class="social">
         <h3>Följ oss på social media</h3>
       </section>
+      </footer>
       <p>
-      &copy;{{ new Date().getFullYear() }} | Created by | 
+      &copy; {{ new Date().getFullYear() }} | Created by | 
     </p>
-    </footer>
+    
 
   </div>
 </template>
@@ -34,16 +35,17 @@ box-sizing: border-box;
 display:inline-block;
 margin: 0 6.9rem;
 text-align: center;
-margin-top: 60px;
 padding: 4px;
+}
+footer{
+  background: rgb(235, 235, 235);
 }
 p{
   text-align: center;
   color: black;
   display: flex;
-  height: 50px;
+  height: 20px;
   align-items: center;
-  background: rgb(235, 235, 235);
   justify-content: center;
 }
 </style>
