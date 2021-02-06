@@ -35,7 +35,6 @@ nav .menu-item svg {
 }
 nav .menu-item .sub-menu {
   position: absolute;
-  background-color: #222;
   top: calc(100% + 18px);
   left: 50%;
   transform: translateX(-50%);
