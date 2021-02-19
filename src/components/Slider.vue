@@ -1,101 +1,100 @@
 <template>
-<div>
-    <h1>Akvaponi i Roslagen</h1>
-    <transition-group name="fade" tag="div">
-    <div v-for="i in [currentIndex]" :key="i">
-        <img :src="currentImg" />
+<div class="slider">
+<h1>Image slider</h1>
+<button @click="prev" type="button" class="btn btn-left">
+  <h3>Left</h3>
+</button>
+<div class="container-slides" :style="{transform: `translateX(${index}px)` , transition: `${transition}` }">
+  <img src="../assets/5.jpg" alt="image " class="img-slider">
+   <img src="../assets/10.jpg" alt="image " class="img-slider">
+    <img src="../assets/13.jpg" alt="image " class="img-slider">
+     <img src="../assets/4.jpg" alt="image " class="img-slider">
 </div>
-    </transition-group>
-    <a class="prev" @click="prev" href="#">&#10094; Previous</a>
-    <a class="next" @click="next" href="#">&#10095; Next</a>
+<button @click="next" type="button" class="btn btn-right">
+  <h3>Right</h3>
+</button>
+
 </div>
+  
 </template>
 
 <script>
 export default {
-    name: "Slider",
-    data(){
-        return{
-            images: [
-             "https://cdn.pixabay.com/photo/2015/12/12/15/24/amsterdam-1089646_1280.jpg",
-             "https://cdn.pixabay.com/photo/2016/02/17/23/03/usa-1206240_1280.jpg",
-             "https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_1280.jpg"    
-            ],
-            timer: null,
-            currentIndex:0
-        };
-    },
-    mounted: function(){
-        this.startSlide();
-    },
-    methods: {
-        startSlide: function(){
-            this.timer = setInterval(this.next, 4000);
-        },
-        next: function(){
-            this.currentIndex +=1;
-        },
-        prev: function(){
-            this.currentIndex -=1;
-        }
-
-    },
-    computed:{
-        currentImg: function(){
-            return this.images[Math.abs(this.currentIndex) % this.images.length];
-        }
+  name: 'Slider',
+  data: function(){
+    return {
+      index:0,
+      transition: "transform 0.2s ease"
     }
-};
+  },
+  methods: {
+    next(){
+      if(this.index === -1500){
+        this.transition = "none";
+        this.index = 0;
+      } else {
+        this.transition = "transform 0.2s ease";
+        this.index -= 500;
+      }
+    },
+    prev(){
+      if(this.index === 0){
+        this.transition = "none";
+        this.index = -1500;
+      } else {
+        this.transition = "transform 0.2s ease";
+        this.index +=500;
+      }
+    }
+  }
+
+}
+ 
 </script>
 
 <style scoped>
-.fade-enter-active,
-.fade-leave-active {
-  transition: all 1.0s ease;
-  overflow: hidden;
-  visibility: visible;
-  position: absolute;
+.slider{
+  width:500px;
+  height:300px;
+  margin: 100px auto 0;
+  /* background: black; */
+  overflow:hidden;
+  position:relative;
+
+}
+.container-slides{
+  display:flex;
+}
+.img-slider{
   width:100%;
-  opacity: 1;
+  height:auto;
 }
-
-.fade-enter,
-.fade-leave-to {
-  visibility: hidden;
-  width:100%;
-  opacity: 0;
-}
-
-img {
-  height:600px;
-  width:100%
-}
-
-.prev, .next {
+.btn{
+  outline:none;
+  border:none;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display:block;
+  position:absolute;
+  z-index:1000;
   cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.7s ease;
-  border-radius: 0 4px 4px 0;
-  text-decoration: none;
-  user-select: none;
+  /* font-size: 20px; */
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
-
-.next {
-  right: 0;
+.btn-left{
+  top:50%;
+  left:5px;
+  transform: translateY(-50%);
 }
-
-.prev {
-  left: 0;
+.btn-right{
+  top:50%;
+  right:5px;
+  transform: translateY(-50%);
 }
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.9);
-}
-
 </style>
+
+
+
