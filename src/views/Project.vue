@@ -1,6 +1,9 @@
 <template>
   <div class="project">
-      <h1>Akvaponi I Roslagen</h1>
+      <!-- <h1>Akvaponi I Roslagen</h1> -->
+      <br>
+      <Slider />
+
       <p>Akvaponi i Roslagen finansieras av Jordbruksverket och LEADER Stockholmsbygd.
        Projektet bidrar med information om akvaponik, en cirkulär jordbruksmetod som gör det möjligt
       att spara vatten och ta vara på näringsämnen genom att kombinera vattenbruk och hydroponi,
@@ -62,9 +65,13 @@
 </template>
 
 <script>
+import Slider from "@/components/Slider";
 export default {
 name:"Project",
-}
+components:{
+  Slider
+},
+};
 </script>
 
 <style scoped>
