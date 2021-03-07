@@ -11,6 +11,7 @@
       <p>Fish handbook https://refarmlinne.se/fisk-i-hus/ </p>
       <p>Guidelines for vegetables http://www.aquasol.org/uploads/7/0/7/0/70700977/guidelines_for_12_common_aquaponic_plants.pdf</p> 
       <p>https://aquaponics.com/</p>
+      <!-- <a href="http://www.fao.org/3/a-i4021e.pdf">download</a> -->
     
 
 

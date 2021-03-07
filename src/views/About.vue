@@ -1,13 +1,15 @@
 <template>
   <div class="about">
-    <h1>UtvecklingCentrum För Vatten</h1>
+    <div class="utveckling">
+    <h1>About Utvecklingentrum För Vatten</h1>
     <p>Utvecklingscentrum för vatten (UCV) är en avdelning av Campus Roslagen AB, 
-      ett kommunalt företag i Norrtälje. Vi leder och deltar i forsknings- och innovationsprojekt 
-      som tar itu med centrala vattenrelaterade utmaningar i Norrtälje, såsom grundvattenkvalitet 
-      och tillgänglighet och eutrofiering. UCV tillhandahåller också utbildning och kompetensutveckling
-      genom olika aktiviteter, såsom kommunal rådgivning (VA-rådgivning), kurser för entreprenörer, 
+      ett kommunalt företag i Norrtälje. <br> Vi leder och deltar i forsknings- och innovationsprojekt 
+      som tar itu med centrala vattenrelaterade utmaningar i Norrtälje, <br> såsom grundvattenkvalitet 
+      och tillgänglighet och eutrofiering. <br> UCV tillhandahåller också utbildning och kompetensutveckling
+      genom olika aktiviteter, såsom kommunal rådgivning (VA-rådgivning), <br> kurser för entreprenörer, 
       öppet hus och informationsdagar för allmänheten (vattendagarna), workshops och nätverk både
-      för offentliga och för privata aktörer. Mer information hittar du på https://www.vattencentrum.se.</p>
+      för offentliga och för privata aktörer. <br> Mer information hittar du på https://www.vattencentrum.se.</p>
+      </div>
 
       <h3>Vår vision är att skapa ett kunskapscentrum för arbetet med vatten från källa till mottagare, 
       med fokus på känsliga vattenmiljöer.</h3>
@@ -88,5 +90,7 @@ export default {
 </script>
 
 <style scoped>
-
+.utveckling{
+  text-align: center;
+}
 </style>
