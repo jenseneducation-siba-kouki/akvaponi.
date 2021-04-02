@@ -1,8 +1,7 @@
 <template>
 <div class="slider">
-<h1>Image slider</h1>
 <button @click="prev" type="button" class="btn btn-left">
-  <h3>Left</h3>
+  <!-- <h3>Left</h3> -->
 </button>
 <div class="container-slides" :style="{transform: `translateX(${index}px)` , transition: `${transition}` }">
   <img src="../assets/5.jpg" alt="image " class="img-slider">
@@ -11,7 +10,7 @@
      <img src="../assets/4.jpg" alt="image " class="img-slider">
 </div>
 <button @click="next" type="button" class="btn btn-right">
-  <h3>Right</h3>
+  <!-- <h3>Right</h3> -->
 </button>
 
 </div>
@@ -72,8 +71,8 @@ export default {
 .btn{
   outline:none;
   border:none;
-  width:50px;
-  height:50px;
+  width:15px;
+  height:15px;
   border-radius: 50%;
   display:block;
   position:absolute;
