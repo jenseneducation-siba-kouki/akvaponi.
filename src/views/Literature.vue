@@ -1,10 +1,10 @@
 <template>
   <div class="literature">
     <div class="container">
-        <h3>Vill du förstå hur ett akvaponiskt system fungerar <br>
-            och hur du kan börja att designa ett eget system? <br>
-            Här nedan finner du några användbara böcker och länkar 
-    </h3>
+        <h2>Vill du förstå hur ett <br> akvaponiskt system fungerar <br>
+            och hur du kan börja att <br> designa ett eget system? <br>
+            Här nedan finner du några <br> användbara böcker och länkar 
+    </h2>
     </div>  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -98,20 +98,28 @@ name: 'Literature',
 </script>
 
 <style scoped>
-/* .container{
-  background-image: url(../assets/boook.jpg);
+.container{
+  background-image: url(../assets/yes.jpg);
   height: 26rem;
   width: 70rem;
   margin-left:5rem;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: left top;
-} */
-h3{
-color: rgb(95, 92, 92);
+}
+h2{
+/* color: rgb(78, 74, 74); */
+color:black;
 text-align: center;
-font-size: 1.5rem;
+font-size: 1.8rem;
 letter-spacing: 1.5px;
+padding-top:90px;
+/* margin-left:2rem; */
+font-style: oblique;
+background-color: #ffffff;
+opacity: 0.5;
+/* border-radius: 50%; */
+width: 70rem;
+height: 20.4rem;
 }
 /* section{
 box-sizing: border-box;
@@ -120,8 +128,9 @@ text-align: center;
 } */
 a{
 text-decoration: none;
-color: black;
+color: rgb(158, 101, 101);
 text-align: center;
+font-style: oblique;
  }
 
 .book{
@@ -140,6 +149,8 @@ text-align: center;
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 15px;
+  font-style: oblique;
+
 }
 .book .box .icon{
   position: relative;
@@ -164,7 +175,7 @@ text-align: center;
   transform: translate(-50%,-50%);
   font-size: 57px;
   transition: 0.5s;
-  color: #ffff;
+  color: rgb(158, 101, 101);
 }
 .book .box .content .fa{
   position: absolute;
@@ -182,5 +193,7 @@ text-align: center;
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-size: 15px;
+  font-style: oblique;
+  color: rgb(158, 101, 101);
 }
 </style>

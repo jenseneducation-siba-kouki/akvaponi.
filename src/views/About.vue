@@ -1,32 +1,33 @@
 <template>
   <div class="about">
     <div class="utveckling">
-    <h1>About Utvecklingentrum För Vatten</h1>
-    <p>Utvecklingscentrum för vatten (UCV) är en avdelning av Campus Roslagen AB, 
-      ett kommunalt företag i Norrtälje. <br> Vi leder och deltar i forsknings- och innovationsprojekt 
-      som tar itu med centrala vattenrelaterade utmaningar i Norrtälje, <br> såsom grundvattenkvalitet 
-      och tillgänglighet och eutrofiering. <br> UCV tillhandahåller också utbildning och kompetensutveckling
-      genom olika aktiviteter, såsom kommunal rådgivning (VA-rådgivning), <br> kurser för entreprenörer, 
-      öppet hus och informationsdagar för allmänheten (vattendagarna), workshops och nätverk både
-      för offentliga och för privata aktörer. <br> Mer information hittar du på https://www.vattencentrum.se.</p>
+    <h1>-- About Utvecklingentrum För Vatten --</h1>
+    <h3>Utvecklingscentrum för vatten är en verksamhet under Campus Roslagen AB med
+      målet att sammanställa, utveckla och sprida kunskap samt stödja forskning och 
+      innovation om vatten och hjälpa till att lösa vattenutmaningar i vår kommun.
+      Vi gör det genom att erbjuda kunskapsutveckling på olika sätt, genom utbildning
+      och medverkan i projekt och genom neutral vatten och avloppsrådgivning till 
+      privatpersoner. Tveka inte att kontakta oss om du har några frågor eller en idé
+      om något som rör vatten. <br>
+     | Epost: info@vattencentrum.se | Telefon: 0176 - 28 61 00 | Besöksadress: Kaserngatan 11, Norrtälje |</h3>
       </div>
 
-      <h3>Vår vision är att skapa ett kunskapscentrum för arbetet med vatten från källa till mottagare, 
+      <!-- <h3>Vår vision är att skapa ett kunskapscentrum för arbetet med vatten från källa till mottagare, 
       med fokus på känsliga vattenmiljöer.</h3>
       <p>UCV står för Utvecklingscentrum för vatten. Vi är en verksamhet under Campus Roslagen som bland annat
         erbjuder kunskapsutveckling på olika sätt, driver och medverkar i projekt samt erbjuder VA-rådgivning
-        till privatpersoner. Tveka inte att kontakta oss om du har några frågor eller en idé om något som rör vatten.</p>
+        till privatpersoner. Tveka inte att kontakta oss om du har några frågor eller en idé om något som rör vatten.</p> -->
 
-      <section class="utbildning">
+      <!-- <section class="utbildning">
         <h2>Inventering av utbildningar inom akvaponi</h2>
         <h3>Utvecklingscentrum för vatten har gjort en inventering av 
           utbildningar och kurser inom akvaponi, främst på eftergymnasial nivå</h3>
           <p>Inom projektet ”Akvaponi i Roslagen” har Utvecklingscentrum för Vatten
              tagit fram ett dokument med aktuella utbildningar inom akvaponi, både svenska och utländska.
              Dokumentet hittar du här: ”Akvaponi i Roslagen”- användbart material</p>
-      </section>
+      </section> -->
 
-      <section class="natur">
+      <!-- <section class="natur">
         <h2>Roslagens naturvårdspris 2020</h2>
         <h3>Utvecklingscentrum för Vattens Amelia Morey Strömberg är
            nominerad till Roslagens naturvårdspris 2020</h3>
@@ -37,15 +38,7 @@
             Priset delas ut av Norrtelje Tidning och Roslagens naturskyddsförening.
 
             Här kan du läsa mer: Artikel i Norrtelje Tidning</p>
-      </section>
-
-      <section class="oppet">
-        <h2>Öppettider</h2>
-        <p>Ordinarie öppettider:
-           Måndag - Fredag: 10.00 - 16.00
-           Lunchstängt: 12.00 - 13.00
-           Lördag & Söndag: Stängt</p>
-      </section>
+      </section> -->
 
       <section class="vilka">
         <h2>Vilka är vi?</h2>
@@ -67,16 +60,33 @@
              forskning och samhälle.</p>
       </section>
 
+        <section class="plats">
+           <h2>Platsen Vattencentrum Roslagen</h2>
+           <h4>Den fysiska platsen för verksamheter inom vatten.</h4>
+           <p> Du hittar oss på Kaserngatan 11 i Norrtälje, här erbjuder vi bland annat <br>
+             kvalificerad och neutral rådgivning om lösningar för dina dricksvatten <br>
+             och avloppsfrågor. I samma hus hittar du även utställningen Vattenexpo <br>
+             där vi även kan visa olika typer av lösningar för hus och båt.</p>
+        </section>
+
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8039.589358292423!2d18.6748426!3d59.7511521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ecae5694acf1405!2sVatteninfo%20AB!5e0!3m2!1sen!2sse!4v1611570061897!5m2!1sen!2sse"
         width="600" 
-        height="450"
+        height="240"
         frameborder="0"
         style="border:0;"
         allowfullscreen=""
         aria-hidden="false"
         tabindex="0"></iframe>
 
+        
 
+           <section class="oppet">
+        <h2>Öppettider</h2>
+        <p>Ordinarie öppettider: <br> <br>
+           Måndag - Fredag: 10.00 - 16.00 <br> <br>
+           Lunchstängt: 12.00 - 13.00 <br> <br>
+           Lördag & Söndag: Stängt</p>
+      </section>
 
 
 
@@ -90,7 +100,45 @@ export default {
 </script>
 
 <style scoped>
-.utveckling{
+.about{
   text-align: center;
+  background-image: url(../assets/now.jpg);
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top:-10px;
+  padding:10px;
+  font-style: oblique;
+
+}
+.vilka{
+  margin:15px;
+  padding:10px;
+  font-style: oblique;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.plats{
+padding:20px;
+float:left;
+margin-top:100px;
+font-style: oblique;
+font-size: 16.3px;
+background-color: #ffffff;
+opacity: 0.7;
+border-radius: 10px;
+height: 100%;
+width: 500px;
+margin-left: 20px;
+}
+iframe{
+  margin-top:100px;
+  border-radius: 5px;
+}
+.oppet{
+  margin-top:41px;
+  font-size: 17px;
+
 }
 </style>

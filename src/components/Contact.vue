@@ -48,7 +48,7 @@ display:inline-block;
 margin: 0 6rem;
 text-align: center;
 padding: 10px;
-
+font-style: oblique;
 }
 footer{
   background: rgb(235, 235, 235);
@@ -60,11 +60,15 @@ p{
   height: 20px;
   align-items: center;
   justify-content: center;
+  font-style: oblique;
+
 }
 li{
   list-style: none;
   display:inline-block;
   padding:20px;
   font-size: 40px;
+  font-style: oblique;
+
 }
 </style>

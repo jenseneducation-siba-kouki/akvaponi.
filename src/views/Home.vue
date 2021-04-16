@@ -108,6 +108,8 @@ export default {
   padding:5rem;
   letter-spacing: 3.3px;
   border-radius: 2px;
+  font-style: oblique;
+
 }
 .veg{
 height: 30rem;
@@ -115,6 +117,8 @@ width: 55rem;
 float: right;
 border-radius: 2px;
 margin-top:-30rem;
+font-style: oblique;
+
 }
 .container{
   position: relative;
@@ -159,9 +163,13 @@ margin-top:-30rem;
   font-size: 57px;
   transition: 0.5s;
   color: #ffff;
+  font-style: oblique;
+
 }
 .container .box:hover .fa{
 font-size:40px;
+font-style: oblique;
+
 }
 .container .box .content{
   position: absolute;
@@ -182,6 +190,8 @@ font-size:40px;
   padding: 0;
   color: rgb(95, 110, 95);
   font-size: 24px;
+  font-style: oblique;
+
 }
 .container .box .content p{
   margin:0;
@@ -189,6 +199,8 @@ font-size:40px;
   color: rgb(95, 110, 95);
   font-family: 'Playfair Display', serif;
   font-size: 13.9px;
+  font-style: oblique;
+
 }
 a{
 text-decoration: none;

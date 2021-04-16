@@ -74,12 +74,15 @@ border-radius: 5px;
 color: white;
 padding:0.5px;
 text-align: center;
+font-style: oblique;
+
 
 }
 h1{
 font-family: 'Lusitana', serif;
 margin-left:1rem;
 margin-top:3rem;
+font-style: oblique;
 
 }
 h3{
@@ -87,6 +90,8 @@ margin-left:1rem;
 font-family: 'DM Serif Text', serif;
 font-weight: 1;
 letter-spacing: 1px;
+font-style: oblique;
+
 }
 h4{
 margin-left:1rem;
@@ -94,9 +99,13 @@ font-family: 'DM Serif Text', serif;
 font-weight: 1;
 font-size: 1.2rem;
 letter-spacing: 1px;
+font-style: oblique;
+
 }
 h5{
   font-family: 'Merriweather', serif;
+  font-style: oblique;
+
 }
 .bild{
 height: 20rem;
@@ -133,6 +142,8 @@ p{
   padding-bottom:3rem;
   font-family: 'Merriweather', serif;
   font-size: 0.8rem;
+  font-style: oblique;
+
 
 }
 </style>
