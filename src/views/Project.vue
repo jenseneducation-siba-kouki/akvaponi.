@@ -1,8 +1,31 @@
+Ella Götbring, [16.04.21 10:19]
 <template>
   <div class="project">
       <!-- <h1>Akvaponi I Roslagen</h1> -->
       <br>
-      <Slider />
+
+      
+ 
+  <div class="image">
+<img src="../assets/8.jpg" alt="image">
+ 
+  <div class="tl">
+  <h1>  Projekt - Akvaponi i Roslagen </h1>
+ 
+  <div class="p">
+  <p>Projektet kommer genom kunskapshöjande insatser samt med stöd från Jordbruksverket, LEADER Stockholmsbygd att sprida kunskap och öka intresset för Akvaponik 
+  </p>
+  <button>läs mer</button>
+ </div>
+ </div>
+ </div>
+  
+
+<!-- (recirkulerande system som odlar fisk på land i kombination med grödor). -->
+
+
+</div>
+<div>
 
       <p>Akvaponi i Roslagen finansieras av Jordbruksverket och LEADER Stockholmsbygd.
        Projektet bidrar med information om akvaponik, en cirkulär jordbruksmetod som gör det möjligt
@@ -16,9 +39,9 @@
       vattnet som resurs och hur man framställer livsmedel på ett hållbart sätt.
       Läs mer på https://www.vattencentrum.se/akvaponi-i-roslagen-2/.</p>
 
-      <h3>Projektet kommer genom kunskapshöjande insatser samt med stöd från Jordbruksverket,
+      <!-- <h3>Projektet kommer genom kunskapshöjande insatser samt med stöd från Jordbruksverket,
          LEADER Stockholmsbygd sprida kunskap och öka intresset för Akvaponik 
-          (recirkulerande system som odlar fisk på land i kombination med grödor).</h3>
+          (recirkulerande system som odlar fisk på land i kombination med grödor).</h3> -->
 
          <p>Målet är att fler företag och andra aktörer på landsbygden (ekonomiska föreningar,
             bygdebolag odyl) skall ta till sig idén om att odla i slutet system, för att ges 
@@ -49,7 +72,8 @@
 
             <p>För mer information om projektet, kontakta:</p>
 
-            <p>Donatella Acquaviva, projektledare |  donatella.acquaviva@campusroslagen.se | 0176 – 28 61 25
+Ella Götbring, [16.04.21 10:19]
+<p>Donatella Acquaviva, projektledare |  donatella.acquaviva@campusroslagen.se | 0176 – 28 61 25
 
               Anna-Karin Hogeland, projektledare | anna-karin.hogeland@campusroslagen.se | 0176 – 28 61 12</p>
 
@@ -65,15 +89,53 @@
 </template>
 
 <script>
-import Slider from "@/components/Slider";
+// import Slider from "@/components/Slider";
 export default {
 name:"Project",
 components:{
-  Slider
+  // Slider
 },
 };
 </script>
 
 <style scoped>
+.image{
+  
+   background-size: cover;
+   display: inline-block; 
+   position: relative;
+   text-align: center;
+   color: white;
+   opacity:0.8;
+   height: 50%;
+ 
+}
+.tl{
+  position: absolute;
+  top: 8px;
+  /* text-transform:capitalize; */
+  font-weight: bold;
+  left: 30px;
+  right: 12px;
+  color: white;
+  margin: 0;
+  padding: 20px;
+ 
+}
+.p{
+  
+  position: absolute;
+  bottom: -100px;
+  font-size: 1rem;
+  left: 20px;
+  color: white;
+  margin: 0;
+}
+/* h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+} */
 
 </style>
