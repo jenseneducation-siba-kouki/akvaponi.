@@ -1,8 +1,10 @@
 <template>
   <div class="home">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <h2>Akvaponi i Roslagen</h2> <br>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <h2>Akvaponi Roslagen</h2> <br>
     <h4>Project Duration</h4> 
     <h5>Oct 2019 --- Mar2021</h5>
     <h4>Total Budget</h4>
@@ -59,7 +61,7 @@
                 kompetensutveckling genom olika aktiviteter, såsom kommunal rådgivning (VA-rådgivning), kurser för entreprenörer, 
                 öppet hus och informationsdagar för allmänheten (vattendagarna), workshops och nätverk både för offentliga och för
                  privata aktörer.
-                 <router-link to="/About" > <br> Läs mer --></router-link>
+                 <router-link to="/About" > <br> Läs mer här</router-link>
                    </p> 
           </div>
 
@@ -78,7 +80,7 @@
         system, för att ges möjlighet att växa, diversifiera sin näring, bidra till ett långsiktigt hållbart
         samhälle som inte gör åverkan på miljön samt odling för eget bruk. Projektet vill även ge barn och unga
         möjlighet att lära sig mer om kretslopp, vattnet som resurs och hur man framställer livsmedel på ett hållbart sätt.
-        <router-link to="/Project" > <br> Läs mer --></router-link></p>
+        <router-link to="/Project" > <br> Läs mer här</router-link></p>
 
           </div>
         </div>
@@ -98,18 +100,23 @@ export default {
 
 <style scoped>
 .home{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
   padding-right:20px;
   background: rgb(235, 235, 235);
   width: 370px;
   height: 480px;
   text-align: center;
-  padding:5rem;
+  padding:3rem;
   letter-spacing: 3.3px;
   border-radius: 2px;
   font-style: oblique;
-
+  color: rgb(33, 99, 99);
+}
+h2{
+  font-size: 3.7rem;
+  margin-top:-1rem;
+  color: rgb(33, 99, 99);
 }
 .veg{
 height: 30rem;
@@ -191,13 +198,15 @@ font-style: oblique;
   color: rgb(95, 110, 95);
   font-size: 24px;
   font-style: oblique;
+  font-family: 'Open Sans', sans-serif;
+
 
 }
 .container .box .content p{
   margin:0;
   padding: 0;
   color: rgb(95, 110, 95);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 13.9px;
   font-style: oblique;
 
@@ -207,7 +216,8 @@ text-decoration: none;
 font-weight: 500;
 font-size: 0.9rem;
 padding:8px;
-color: rgb(95, 110, 95);
+color: rgb(126, 189, 124);
+
  } 
 
 /* section{

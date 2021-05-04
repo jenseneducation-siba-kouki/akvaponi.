@@ -1,4 +1,6 @@
 <template>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <div class="event">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@700&display=swap" rel="stylesheet">
@@ -31,29 +33,37 @@
       </section>
       
 
-      <section class="thom">
+      <!-- <section class="thom">
         <img src="../assets/vatten.jpg" class="akva" alt="">
         <h3>2020-02-27: Avancerad workshop om akvaponi</h3>
       <p>Föreläsning: <br> Thomas Bjelkeman-Pettersson från Johannas Stadsodlingar 
          pratar om hur man kan designa ett akvaponiskt system</p>
-         </section>
+         </section> -->
 
       <h3>2019-12-05: Kick-off workshop för Akvaponi i Roslagen</h3>
       <section class="don">
         <img src="../assets/13.jpg" class="aqua" alt="">
       <p>Förläsning 1: <br> Donatella Acquaviva – <br> Introduktion till WS & Akvaponi i Roslagen </p>
+      <!-- <a href="https://www.vattencentrum.se/content/uploads/2019/10/1.-donatella-workshop-5-dec.pdf">Förläsning 1: <br> Donatella Acquaviva – <br> Introduktion till WS & Akvaponi i Roslagen</a> -->
+
       </section>
       <section class="bjorn">
         <img src="../assets/17.jpg" class="aqua" alt="">
       <p> Förläsning 2: <br> Björn Oliviusson <br> (Ej tillgänglig för nedladdning <br> pga.upphovsrättsskyddat material) </p>
+
+
       </section>
       <section class="torb">
         <img src="../assets/4.jpg" class="aqua" alt="">
       <p> Förläsning 3: <br> Torbjörn Frisö, <br> Gröna Solberga</p>
+            <!-- <a href="https://www.vattencentrum.se/content/uploads/2019/10/3.-torbjorn-akvaponi-solberga.pdf">Förläsning 3: <br> Torbjörn Frisö, <br> Gröna Solberga</a> -->
+
       </section>
       <section class="jon">
         <img src="../assets/5.jpg" class="aqua" alt="">
       <p> Förläsning 4: <br> Jonathan Alm, <br> Demoanläggning Vattencentrum</p>
+      <!-- <a href="https://www.vattencentrum.se/content/uploads/2019/10/4.-jonathan-demoanlaggning-akvaponi.pdf">Förläsning 4: <br> Jonathan Alm, <br> Demoanläggning Vattencentrum</a> -->
+
       </section>
          
 
@@ -75,27 +85,23 @@ color: white;
 padding:0.5px;
 text-align: center;
 font-style: oblique;
-
-
 }
 h1{
-font-family: 'Lusitana', serif;
+  font-family: 'Open Sans', sans-serif;
 margin-left:1rem;
 margin-top:3rem;
 font-style: oblique;
-
 }
 h3{
 margin-left:1rem;
-font-family: 'DM Serif Text', serif;
+  font-family: 'Open Sans', sans-serif;
 font-weight: 1;
 letter-spacing: 1px;
 font-style: oblique;
-
 }
 h4{
 margin-left:1rem;
-font-family: 'DM Serif Text', serif;
+  font-family: 'Open Sans', sans-serif;
 font-weight: 1;
 font-size: 1.2rem;
 letter-spacing: 1px;
@@ -103,14 +109,14 @@ font-style: oblique;
 
 }
 h5{
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: oblique;
-
 }
 .bild{
-height: 20rem;
+height: 18rem;
 width: 21rem;
 margin:2rem; 
+border-radius: 15px;
 }
 section{
 box-sizing: border-box;
@@ -123,12 +129,13 @@ padding: 4px;
 height: 15rem;
 width: 15rem;
 margin:1.9rem;
-
+border-radius: 15px;
 }
 .akva{
-height: 30rem;
+height: 26rem;
 width: 60rem;
-margin-left:8.5rem;
+margin-left:8.9rem;
+border-radius: 15px;
 }
 p{
   text-align: center;
@@ -140,10 +147,9 @@ p{
   padding-top:0.6rem;
   letter-spacing: 0.5px;
   padding-bottom:3rem;
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.8rem;
   font-style: oblique;
-
-
 }
+
 </style>

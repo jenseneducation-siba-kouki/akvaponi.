@@ -5,6 +5,7 @@ import Events from '../views/Events.vue'
 import Literature from '../views/Literature.vue'
 import News from '../views/News.vue'
 import Project from '../views/Project.vue'
+import Akvaponi from '../views/Akvaponi.vue'
 
 
 const routes = [
@@ -37,6 +38,11 @@ const routes = [
     path: '/Project',
     name: 'Project',
     component: Project
+  },
+  {
+    path: '/Akvaponi',
+    name: 'Akvaponi',
+    component: Akvaponi
   },
 ]
 const router = createRouter({

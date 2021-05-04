@@ -1,4 +1,6 @@
 <template>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <div class="about">
     <div class="utveckling">
     <h1>-- About Utvecklingentrum För Vatten --</h1>
@@ -71,7 +73,7 @@
 
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8039.589358292423!2d18.6748426!3d59.7511521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ecae5694acf1405!2sVatteninfo%20AB!5e0!3m2!1sen!2sse!4v1611570061897!5m2!1sen!2sse"
         width="600" 
-        height="240"
+        height="280"
         frameborder="0"
         style="border:0;"
         allowfullscreen=""
@@ -110,6 +112,8 @@ export default {
   margin-top:-10px;
   padding:10px;
   font-style: oblique;
+    font-family: 'Open Sans', sans-serif;
+
 
 }
 .vilka{
@@ -118,6 +122,8 @@ export default {
   font-style: oblique;
   font-size: 16px;
   letter-spacing: 0.5px;
+    font-family: 'Open Sans', sans-serif;
+
 }
 .plats{
 padding:20px;
@@ -137,7 +143,7 @@ iframe{
   border-radius: 5px;
 }
 .oppet{
-  margin-top:41px;
+  margin-top:50px;
   font-size: 17px;
 
 }

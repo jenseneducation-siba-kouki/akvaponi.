@@ -24,10 +24,13 @@
             <li><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
           </ul>
         </div>
+        
       </section>
+          <img src="../assets/UCV.png" class="logo">
+
       </footer>
       <p>
-      &copy; {{ new Date().getFullYear() }} | Created by | 
+      &copy; {{ new Date().getFullYear() }} | Vattencentrum
     </p>
     
 
@@ -61,6 +64,7 @@ p{
   align-items: center;
   justify-content: center;
   font-style: oblique;
+  
 
 }
 li{
@@ -69,6 +73,12 @@ li{
   padding:20px;
   font-size: 40px;
   font-style: oblique;
-
 }
+ .logo{
+ height: 7rem;
+ width: 17rem;
+ margin-left:5rem;
+ margin-bottom: 1rem;
+  
+  }
 </style>
