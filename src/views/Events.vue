@@ -6,17 +6,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@700&display=swap" rel="stylesheet">
     <div class="text">
-    <h1>Tidigare Evenemang</h1>
+    <h1>Tidigare och Kommande Evenemang</h1>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap" rel="stylesheet">
-    <h3>Här samlar vi information om våra tidigare evenemang inom projektet Akvaponi i Roslagen.</h3>
+    <h3>Här samlar vi information om våra evenemang inom projektet Akvaponi i Roslagen.</h3>
     <h4>Föreläsningar och annat material kan laddas ned via länkar under respektive rubrik.</h4>
     </div>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+
+   <section class="kom">
+      <img src="../assets/kom.jpg" class="tidigare" alt="">
+      <a href="https://www.vattencentrum.se/events/webinarium-praktisk-vaxtskotsel/">15/02/21 - 13:00 <br> Webinarium: <br>Praktisk växtskötsel </a>
+      </section>
+    <section class="komm">
+      <img src="../assets/komm.jpg" class="tidigare" alt="">
+      <a href="https://www.vattencentrum.se/events/webinarium-akvaponi-i-samhallsplanering/">24/02/21 - 13:00 <br> Webinarium: <br> Akvaponi i samhällsplanering </a>
+      </section>
+
+
+
+<h3>10/02/21 Webinarium: Praktisk fiskskötsel</h3>
     <section class="web">
       <img src="../assets/3.jpg" class="bild" alt="">
       <h5>Webinar med University of Liege on Zoom:</h5>
@@ -122,6 +135,13 @@ h5{
   font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
   font-style: oblique;
+}
+.tidigare{
+height: 18rem;
+width: 25rem;
+margin:3rem; 
+margin-left:9rem;
+border-radius: 15px;
 }
 .bild{
 height: 18rem;
