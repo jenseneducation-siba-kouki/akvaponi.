@@ -1,7 +1,4 @@
-Ella Götbring, [16.04.21 10:19]
 <template>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
   <div class="container">
    <!-- <div class="parent"> -->
   <section class="info">
@@ -30,7 +27,7 @@ Ella Götbring, [16.04.21 10:19]
             matchar de behov som marknaden efterfrågar. <a href="https://www.vattencentrum.se/akvaponi-i-roslagen-2/">Läs mer</a> 
             <br>
             <br>
-            <img class="logo" src="../assets/Logoleader.png" alt="image">
+            <img class="logo" src="../assets/Logoleader.jpg" alt="image">
             </p>
          </div>
   </section>
@@ -99,7 +96,7 @@ Ella Götbring, [16.04.21 10:19]
             <p>För mer information om projektet, kontakta:</p>
 
 
-<p>Donatella Acquaviva, projektledare |  donatella.acquaviva@campusroslagen.se | 0176 – 28 61 25 <br>
+<p>Donatella Acquaviva, projektledare |  donatella.acquaviva@campusroslagen.se | 0176 – 28 61 25
 
               Anna-Karin Hogeland, projektledare | anna-karin.hogeland@campusroslagen.se | 0176 – 28 61 12</p>
 
@@ -144,8 +141,6 @@ img{
   grid-template-columns: repeat(2, 1fr);
   padding: 2rem;
   line-height: 1rem;
-    font-family: 'Open Sans', sans-serif;
-
 }
 .info img{
   height: 500px;
@@ -159,7 +154,6 @@ img{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
   }
 .single-box{
   position: relative;
@@ -175,7 +169,6 @@ img{
   margin: 20px;
   padding: 20px;
   transition: .3s;
-  
 }
 .image-area{
   display:flex;
@@ -189,7 +182,6 @@ img{
   background-size: cover;
   padding: 20px;
   background-position:center center;
-  
 }
 .single-box:nth-child(1) .image-area{
   background-image:url("../assets/com.jpg")
@@ -204,28 +196,18 @@ img{
   font-size: 24px;
   font-weight: 500;
   line-height: 48px;
-  font-family: 'Open Sans', sans-serif;
-
 }
 .image-text p{
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
-  font-family: 'Open Sans', sans-serif;
-
 }
 .image-text{
   padding-top: 20px;
-  font-family: 'Open Sans', sans-serif;
-
 }
 .single-box:hover{
   color: white;
   background: rgb(72, 140, 185);
-
-}
-p{
-    font-family: 'Open Sans', sans-serif;
 
 }
 

@@ -1,6 +1,7 @@
 <template>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
   <div class="about">
     <div class="utveckling">
     <h1>-- About Utvecklingentrum För Vatten --</h1>
@@ -104,11 +105,10 @@ export default {
 <style scoped>
 .about{
   text-align: center;
-  background-image: url(../assets/now.jpg);
+  background-image: url(../assets/green.jpg);
   background-repeat: no-repeat ;
   background-position: center;
   background-size: cover;
-  border-radius: 10px;
   margin-top:-10px;
   padding:10px;
   font-style: oblique;

@@ -1,6 +1,7 @@
 <template>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
   <div class="event">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@700&display=swap" rel="stylesheet">
@@ -43,8 +44,8 @@
       <h3>2019-12-05: Kick-off workshop för Akvaponi i Roslagen</h3>
       <section class="don">
         <img src="../assets/13.jpg" class="aqua" alt="">
-      <p>Förläsning 1: <br> Donatella Acquaviva – <br> Introduktion till WS & Akvaponi i Roslagen </p>
-      <!-- <a href="https://www.vattencentrum.se/content/uploads/2019/10/1.-donatella-workshop-5-dec.pdf">Förläsning 1: <br> Donatella Acquaviva – <br> Introduktion till WS & Akvaponi i Roslagen</a> -->
+      <!-- <p>Förläsning 1: <br> Donatella Acquaviva – <br> Introduktion till WS & Akvaponi i Roslagen </p> -->
+      <a href="https://www.vattencentrum.se/content/uploads/2019/10/1.-donatella-workshop-5-dec.pdf">Förläsning 1: <br> Donatella Acquaviva – <br> Introduktion till WS & Akvaponi i Roslagen</a>
 
       </section>
       <section class="bjorn">
@@ -55,16 +56,25 @@
       </section>
       <section class="torb">
         <img src="../assets/4.jpg" class="aqua" alt="">
-      <p> Förläsning 3: <br> Torbjörn Frisö, <br> Gröna Solberga</p>
-            <!-- <a href="https://www.vattencentrum.se/content/uploads/2019/10/3.-torbjorn-akvaponi-solberga.pdf">Förläsning 3: <br> Torbjörn Frisö, <br> Gröna Solberga</a> -->
+      <!-- <p> Förläsning 3: <br> Torbjörn Frisö, <br> Gröna Solberga</p> -->
+            <a href="https://www.vattencentrum.se/content/uploads/2019/10/3.-torbjorn-akvaponi-solberga.pdf">Förläsning 3: <br> Torbjörn Frisö, <br> Gröna Solberga</a>
 
       </section>
       <section class="jon">
         <img src="../assets/5.jpg" class="aqua" alt="">
-      <p> Förläsning 4: <br> Jonathan Alm, <br> Demoanläggning Vattencentrum</p>
-      <!-- <a href="https://www.vattencentrum.se/content/uploads/2019/10/4.-jonathan-demoanlaggning-akvaponi.pdf">Förläsning 4: <br> Jonathan Alm, <br> Demoanläggning Vattencentrum</a> -->
+      <!-- <p> Förläsning 4: <br> Jonathan Alm, <br> Demoanläggning Vattencentrum</p> -->
+      <a href="https://www.vattencentrum.se/content/uploads/2019/10/4.-jonathan-demoanlaggning-akvaponi.pdf">Förläsning 4: <br> Jonathan Alm, <br> Demoanläggning Vattencentrum</a>
 
       </section>
+<h3>2020-02-27: Avancerad workshop om akvaponi</h3>
+           <section class="thom">
+        <img src="../assets/vatten.jpg" class="akva" alt="">
+        <a href="https://www.vattencentrum.se/content/uploads/2020/03/akvaponik-workshop-johannas-2020-02-27.pdf">
+        Föreläsning: <br> Thomas Bjelkeman-Pettersson från Johannas Stadsodlingar <br>
+         pratar om hur man kan designa ett akvaponiskt system</a>
+      <!-- <p>Föreläsning: <br> Thomas Bjelkeman-Pettersson från Johannas Stadsodlingar 
+         pratar om hur man kan designa ett akvaponiskt system</p> -->
+         </section>
          
 
   </div>
@@ -109,6 +119,7 @@ font-style: oblique;
 
 }
 h5{
+  font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
   font-style: oblique;
 }
@@ -132,9 +143,9 @@ margin:1.9rem;
 border-radius: 15px;
 }
 .akva{
-height: 26rem;
-width: 60rem;
-margin-left:8.9rem;
+height: 20rem;
+width: 34rem;
+margin-left:2rem;
 border-radius: 15px;
 }
 p{
@@ -148,8 +159,27 @@ p{
   letter-spacing: 0.5px;
   padding-bottom:3rem;
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-style: oblique;
+}
+a{
+ text-decoration: none;
+ text-align: center;
+  color: black;
+  display: flex;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-top:0.6rem;
+  letter-spacing: 0.5px;
+  padding-bottom:3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  font-style: oblique;
+}
+a:hover{
+  color: rgb(144, 172, 144);
+  text-decoration: underline;
 }
 
 </style>

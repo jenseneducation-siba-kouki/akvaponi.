@@ -4,6 +4,8 @@
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
     crossorigin="anonymous"> -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 
     <footer class="container">
       <section class="adress">
@@ -20,13 +22,14 @@
         <h3>Följ oss på social media</h3>
         <div class="media">
           <ul>
-            <li><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
-            <li><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+            <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
           </ul>
         </div>
-        
       </section>
           <img src="../assets/UCV.png" class="logo">
+          <img class="logo" src="../assets/euro.jpg" alt="image">
+
 
       </footer>
       <p>
@@ -52,6 +55,8 @@ margin: 0 6rem;
 text-align: center;
 padding: 10px;
 font-style: oblique;
+font-family: 'Open Sans', sans-serif;
+
 }
 footer{
   background: rgb(235, 235, 235);
@@ -64,8 +69,7 @@ p{
   align-items: center;
   justify-content: center;
   font-style: oblique;
-  
-
+  font-family: 'Open Sans', sans-serif;
 }
 li{
   list-style: none;
@@ -75,10 +79,14 @@ li{
   font-style: oblique;
 }
  .logo{
- height: 7rem;
+ height: 7.2rem;
  width: 17rem;
- margin-left:5rem;
+ margin-left:6rem;
  margin-bottom: 1rem;
   
   }
+  i{
+    color: black;
+  }
+
 </style>

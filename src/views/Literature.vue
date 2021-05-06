@@ -1,4 +1,6 @@
 <template>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
   <div class="literature">
     <div class="container">
         <h2>Vill du förstå hur ett akvaponiskt system fungerar <br>
@@ -121,8 +123,7 @@ font-style: oblique;
 opacity: 0.6;
 width: 70rem;
 height: 20.4rem;
-  font-family: 'Open Sans', sans-serif;
-
+font-family: 'Open Sans', sans-serif;
 }
 /* section{
 box-sizing: border-box;
@@ -131,8 +132,13 @@ text-align: center;
 } */
 a{
 text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
 color: rgb(144, 172, 144);
 text-align: center;
+font-weight: 600;
 font-style: oblique;
 font-family: 'Open Sans', sans-serif;
  }
@@ -199,5 +205,10 @@ font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-style: oblique;
   color: rgb(144, 172, 144);
+  font-weight: 600;
+
+}
+a:hover{
+  text-decoration: underline;
 }
 </style>

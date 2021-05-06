@@ -54,13 +54,11 @@
             <i class="fa fa-pagelines" aria-hidden="true"></i>
           </div>
           <div class="content">
-            <h3>Utväkling Centrum</h3>
-            <p>Utvecklingscentrum för vatten (UCV) är en avdelning av Campus Roslagen AB, ett kommunalt företag i Norrtälje.
-               Vi leder och deltar i forsknings- och innovationsprojekt som tar itu med centrala vattenrelaterade utmaningar i Norrtälje,
-                såsom grundvattenkvalitet och tillgänglighet och eutrofiering. UCV tillhandahåller också utbildning och 
-                kompetensutveckling genom olika aktiviteter, såsom kommunal rådgivning (VA-rådgivning), kurser för entreprenörer, 
-                öppet hus och informationsdagar för allmänheten (vattendagarna), workshops och nätverk både för offentliga och för
-                 privata aktörer.
+            <h3>Akvaponi</h3>
+            <p>Livsmedelssektorn kommer att behöva möta stora utmaningar som en allt större världsbefolkning medför,
+               varav 70 procent kommer att leva i städer och bidra till överanvändning av våra resurser
+               Jordbruket är mer beroende av väder och klimat än andra sektorer och kommer att påverkas särskilt 
+               av klimatförändringarna.Några av dess konsekvenser är jorderosion, torka.
                  <router-link to="/About" > <br> Läs mer här</router-link>
                    </p> 
           </div>
@@ -71,15 +69,16 @@
             <i class="fa fa-envira" aria-hidden="true"></i>
           </div>
           <div class="content">
-            <h3>Akvaponi Projekt</h3>
+            <h3>Projekt</h3>
             <p>Akvaponi i Roslagen finansieras av Jordbruksverket och LEADER Stockholmsbygd. Projektet bidrar 
        med information om akvaponik, en cirkulär jordbruksmetod som gör det möjligt att spara vatten och ta 
         vara på näringsämnen genom att kombinera vattenbruk och hydroponi, och som kan främja övergången till 
-         mer hållbara system för livsmedelsproduktion. Målet är att fler företag och andra aktörer på 
+         mer hållbara system för livsmedelsproduktion.
+          <!-- Målet är att fler företag och andra aktörer på 
         landsbygden (ekonomiska föreningar, bygdebolag odyl) skall ta till sig idén om att odla i slutet
         system, för att ges möjlighet att växa, diversifiera sin näring, bidra till ett långsiktigt hållbart
         samhälle som inte gör åverkan på miljön samt odling för eget bruk. Projektet vill även ge barn och unga
-        möjlighet att lära sig mer om kretslopp, vattnet som resurs och hur man framställer livsmedel på ett hållbart sätt.
+        möjlighet att lära sig mer om kretslopp, vattnet som resurs och hur man framställer livsmedel på ett hållbart sätt. -->
         <router-link to="/Project" > <br> Läs mer här</router-link></p>
 
           </div>
@@ -136,7 +135,7 @@ font-style: oblique;
 .container .box{
   position: relative;
   width: calc(550px - 30px);
-  height: calc(420px - 30px);
+  height: calc(350px - 30px);
   background: rgb(235, 235, 235);
   float: left;
   margin:20px 40px;
