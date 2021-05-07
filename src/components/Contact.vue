@@ -22,8 +22,8 @@
         <h3>Följ oss på social media</h3>
         <div class="media">
           <ul>
-            <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-            <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+            <!-- <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li> -->
+            <li><a href="https://www.facebook.com/UtvecklingscentrumForAkvaponi"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
             <li><a href="https://www.youtube.com/channel/UCbehk0HaxHY38xG6QlTmbIQ"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
           </ul>
         </div>
@@ -84,7 +84,6 @@ li{
  width: 17rem;
  margin-left:6rem;
  margin-bottom: 1rem;
-  
   }
   i{
     color: black;
