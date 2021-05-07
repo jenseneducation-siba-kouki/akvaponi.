@@ -59,7 +59,7 @@
                varav 70 procent kommer att leva i städer och bidra till överanvändning av våra resurser
                Jordbruket är mer beroende av väder och klimat än andra sektorer och kommer att påverkas särskilt 
                av klimatförändringarna.Några av dess konsekvenser är jorderosion, torka.
-                 <router-link to="/About" > <br> Läs mer här</router-link>
+                 <router-link to="/Akvaponi" > <br> Läs mer här</router-link>
                    </p> 
           </div>
 

@@ -1,4 +1,8 @@
 <template>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
   <div class="container">
    <!-- <div class="parent"> -->
   <section class="info">
@@ -96,7 +100,8 @@
             <p>För mer information om projektet, kontakta:</p>
 
 
-<p>Donatella Acquaviva, projektledare |  donatella.acquaviva@campusroslagen.se | 0176 – 28 61 25
+<p>Donatella Acquaviva, projektledare |  donatella.acquaviva@campusroslagen.se | 0176 – 28 61 25 <br>
+
 
               Anna-Karin Hogeland, projektledare | anna-karin.hogeland@campusroslagen.se | 0176 – 28 61 12</p>
 
@@ -124,6 +129,7 @@ name:"Project",
 <style scoped>
 .img{
   opacity: 0.8;
+  
 }
 /* .content{
   border: 1px solid black;
@@ -141,6 +147,8 @@ img{
   grid-template-columns: repeat(2, 1fr);
   padding: 2rem;
   line-height: 1rem;
+    font-family: 'Open Sans', sans-serif;
+
 }
 .info img{
   height: 500px;
@@ -154,6 +162,8 @@ img{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+    font-family: 'Open Sans', sans-serif;
+
   }
 .single-box{
   position: relative;
@@ -169,6 +179,8 @@ img{
   margin: 20px;
   padding: 20px;
   transition: .3s;
+    font-family: 'Open Sans', sans-serif;
+
 }
 .image-area{
   display:flex;
@@ -182,6 +194,8 @@ img{
   background-size: cover;
   padding: 20px;
   background-position:center center;
+    font-family: 'Open Sans', sans-serif;
+
 }
 .single-box:nth-child(1) .image-area{
   background-image:url("../assets/com.jpg")
@@ -196,18 +210,27 @@ img{
   font-size: 24px;
   font-weight: 500;
   line-height: 48px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 .image-text p{
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 .image-text{
   padding-top: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 .single-box:hover{
   color: white;
   background: rgb(72, 140, 185);
+
+}
+p{
+    font-family: 'Open Sans', sans-serif;
 
 }
 
